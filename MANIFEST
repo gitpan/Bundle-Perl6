@@ -3,3 +3,4 @@ MANIFEST
 Makefile.PL
 Perl6.pm
 README
+META.yml                                Module meta-data (added by MakeMaker)

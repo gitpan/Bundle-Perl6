@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::Perl6.
 
+0.06  Thu Aug  2 12:51:27 CEST 2001
+	- added many Perl6::* modules
+
 0.05  Thu Aug  2 12:51:27 CEST 2001
 	- added Want (by Robin Houston)
 
