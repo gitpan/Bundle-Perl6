@@ -1,6 +1,6 @@
 package Bundle::Perl6;
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 1;
 __END__
@@ -27,6 +27,8 @@ Attribute::Util         - A selection of general-utility attributes
 
 Attribute::Deprecated   - Mark deprecated methods
 
+Exporter::Simple        - Easier set-up of module exports with attributes
+
 Scalar::Properties      - Run-time properties on scalar variables
 
 Switch                  - A switch statement for Perl
@@ -38,6 +40,8 @@ NEXT                    - Provide a pseudo-class NEXT for method redispatch
 UNIVERSAL::exports      - Lightweight, universal exporting of variables
 
 CLASS                   - Alias for __PACKAGE__
+
+Class::Object           - Each object is its own class
 
 =head1 DESCRIPTION
 

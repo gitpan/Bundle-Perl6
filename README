@@ -17,6 +17,8 @@ CONTENTS
 
     Attribute::Deprecated - Mark deprecated methods
 
+    Exporter::Simple - Easier set-up of module exports with attributes
+
     Scalar::Properties - Run-time properties on scalar variables
 
     Switch - A switch statement for Perl
@@ -28,6 +30,8 @@ CONTENTS
     UNIVERSAL::exports - Lightweight, universal exporting of variables
 
     CLASS - Alias for __PACKAGE__
+
+    Class::Object - Each object is its own class
 
 DESCRIPTION
     This bundle defines modules that may be of interest to those discussing
