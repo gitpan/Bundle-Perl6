@@ -1,6 +1,6 @@
 package Bundle::Perl6;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 1;
 __END__
@@ -34,6 +34,10 @@ Switch                  - A switch statement for Perl
 Perl6::Variables        - Perl 6 variable syntax for Perl 5
 
 NEXT                    - Provide a pseudo-class NEXT for method redispatch
+
+UNIVERSAL::exports      - Lightweight, universal exporting of variables
+
+CLASS                   - Alias for __PACKAGE__
 
 =head1 DESCRIPTION
 
