@@ -1,6 +1,6 @@
 package Bundle::Perl6;
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 1;
 __END__
@@ -42,6 +42,8 @@ UNIVERSAL::exports      - Lightweight, universal exporting of variables
 CLASS                   - Alias for __PACKAGE__
 
 Class::Object           - Each object is its own class
+
+Coro                    - create and manage coroutines
 
 =head1 DESCRIPTION
 

@@ -33,6 +33,8 @@ CONTENTS
 
     Class::Object - Each object is its own class
 
+    Coro - create and manage coroutines
+
 DESCRIPTION
     This bundle defines modules that may be of interest to those discussing
     and implementing the Perl 6 language. Some of these are
