@@ -1,6 +1,6 @@
 package Bundle::Perl6;
 
-$VERSION = '0.06';
+$VERSION = '0.07';
 
 1;
 __END__
@@ -59,6 +59,8 @@ Perl6::Parameters       - Perl 6-style prototypes with named parameters
 
 Perl6::Placeholders     - Perl 6 implicitly declared parameters for Perl 5
 
+Perl6::Say              - Implements the Perl 6 say (print-with-newline) function
+
 Perl6::Tokener          - It's a Perl 6 tokener. It tokenises Perl 6.
 
 Perl6::Variables        - Perl 6 variable syntax for Perl 5
@@ -82,7 +84,7 @@ site near you. Or see L<http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
 
 =head1 VERSION
 
-This document describes version 0.05 of C<Bundle::Perl6>.
+This document describes version 0.07 of C<Bundle::Perl6>.
 
 =head1 AUTHOR
 
