@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::Perl6.
 
+0.05  Thu Aug  2 12:51:27 CEST 2001
+	- added Want (by Robin Houston)
+
 0.04  Tue Jul  3 15:08:34 CEST 2001
 	- added Coro (by Marc Lehmann)
 

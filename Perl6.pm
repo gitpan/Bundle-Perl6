@@ -1,6 +1,6 @@
 package Bundle::Perl6;
 
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 1;
 __END__
@@ -44,6 +44,8 @@ CLASS                   - Alias for __PACKAGE__
 Class::Object           - Each object is its own class
 
 Coro                    - create and manage coroutines
+
+Want                    - Implement the want() command
 
 =head1 DESCRIPTION
 
