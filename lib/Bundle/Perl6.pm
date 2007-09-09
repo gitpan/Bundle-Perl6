@@ -1,6 +1,6 @@
 package Bundle::Perl6;
 
-$VERSION = '0.07';
+$VERSION = '0.08';
 
 1;
 __END__
@@ -11,7 +11,7 @@ Bundle::Perl6 - A bundle to install Perl6-related modules
 
 =head1 SYNOPSIS
 
-  perl -MCPAN -e 'install Bundle::Perl6'
+  $ cpan Bundle::Perl6
 
 =head1 CONTENTS
 
@@ -41,13 +41,27 @@ Scalar::Properties      - Run-time properties on scalar variables
 
 Switch                  - A switch statement for Perl
 
+Parrot::Embed           - parrot
+
+Perl6::Attributes       - Perl 6-like member variable syntax
+
+Perl6::Bible            - Perl 6 Design Documentations
+
 Perl6::Binding          - implement Perl6 aliasing features
 
+Perl6::Builtins         - Provide Perl 5 versions of the new Perl 6 builtins
+
+Perl6::Caller           - OO caller() interface
+
 Perl6::Classes          - First class classes in Perl 5
+
+Perl6::Contexts         - array and hash variables turn into references to themselves when used in non-numeric scalar context or as function arguments
 
 Perl6::Currying         - Perl 6 subroutine currying for Perl 5
 
 Perl6::Export           - Implements the Perl 6 'is export(...)' trait
+
+Perl6::Export::Attrs    - The Perl 6 'is export(...)' trait as a Perl 5 attribute
 
 Perl6::Form             - Implements the Perl 6 'form' built-in
 
@@ -55,32 +69,53 @@ Perl6::Gather           - Implements the Perl 6 'gather/take' control structure 
 
 Perl6::Interpolators    - Use Perl 6 function-interpolation syntax
 
+Perl6::Junction         - Perl6 style Junction operators in Perl5
+
 Perl6::Parameters       - Perl 6-style prototypes with named parameters
+
+Perl6::Perl             - $obj->perl just like $obj.perl in Perl 6
+
+Perl6::Perldoc          - Use Perl 6 documentation in a Perl 5 program
 
 Perl6::Placeholders     - Perl 6 implicitly declared parameters for Perl 5
 
-Perl6::Say              - Implements the Perl 6 say (print-with-newline) function
+Perl6::Pugs             - A Perl 6 implementation
+
+Perl6::Roles            - Perl6 roles in Perl5
+
+Perl6::Rules            - Implements (most of) the Perl 6 regex syntax
+
+Perl6::Say              - print -- but no newline needed
+
+Perl6::Slurp            - Implements the Perl 6 'slurp' built-in
+
+Perl6::Subs             - Define your subroutines in the Perl 6 style
+
+Perl6::Take             - gather/take in Perl 5
 
 Perl6::Tokener          - It's a Perl 6 tokener. It tokenises Perl 6.
 
 Perl6::Variables        - Perl 6 variable syntax for Perl 5
 
+Regexp::Parser          - base class for parsing regexes (contains Perl6::Rule::Parser)
+
 UNIVERSAL::exports      - Lightweight, universal exporting of variables
 
 Want                    - Implement the want() command
 
+v6                      - An experimental Perl 6 implementation
+
 =head1 DESCRIPTION
 
-This bundle defines modules that may be of interest to those
-discussing and implementing the Perl 6 language. Some of these are
-proof-of-concepts that the respective authors have implemented to
-show how things might work in Perl 6.
+This bundle defines modules that may be of interest to those discussing and
+implementing the Perl 6 language. Some of these are proof-of-concepts that the
+respective authors have implemented to show how things might work in Perl 6.
 
 =head1 AVAILABILITY
 
 The latest version of this module is available from the Comprehensive Perl
-Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
-site near you. Or see L<http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
+Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN site
+near you. Or see L<http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
 
 =head1 VERSION
 
@@ -92,7 +127,7 @@ Marcel GrE<uuml>nauer, E<lt>marcel@cpan.orgE<gt>
 
 =head1 COPYRIGHT
 
-Copyright 2001-2004 Marcel GrE<uuml>nauer. All rights reserved.
+Copyright 2001-2007 Marcel GrE<uuml>nauer. All rights reserved.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

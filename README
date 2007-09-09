@@ -1,89 +1,27 @@
-NAME
-    Bundle::Perl6 - A bundle to install Perl6-related modules
+This is the Perl module Bundle::Perl6.
 
-SYNOPSIS
-      perl -MCPAN -e 'install Bundle::Perl6'
+INSTALLATION
 
-CONTENTS
-    Attribute::Handlers - Simpler definition of attribute handlers
+Bundle::Perl6 installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
 
-    Attribute::Types - Attributes that confer type on variables
+    % cpan Bundle::Perl6
 
-    Attribute::Overload - Attribute that makes overloading easier
+Download it, unpack it, then build it as per the usual:
 
-    Attribute::TieClasses - Attribute wrappers for CPAN Tie classes
+    % perl Makefile.PL
+    % make && make test
 
-    Attribute::Util - A selection of general-utility attributes
+Then install it:
 
-    Attribute::Deprecated - Mark deprecated methods
+    % make install
 
-    CLASS - Alias for __PACKAGE__
+DOCUMENTATION
 
-    Class::Object - Each object is its own class
+Bundle::Perl6 documentation is available as in POD. So you can do:
 
-    Coro - create and manage coroutines
+    % perldoc Bundle::Perl6
 
-    Exporter::Simple - Easier set-up of module exports with attributes
+to read the documentation online with your favorite pager.
 
-    NEXT - Provide a pseudo-class NEXT for method redispatch
-
-    Scalar::Properties - Run-time properties on scalar variables
-
-    Switch - A switch statement for Perl
-
-    Perl6::Binding - implement Perl6 aliasing features
-
-    Perl6::Classes - First class classes in Perl 5
-
-    Perl6::Currying - Perl 6 subroutine currying for Perl 5
-
-    Perl6::Export - Implements the Perl 6 'is export(...)' trait
-
-    Perl6::Form - Implements the Perl 6 'form' built-in
-
-    Perl6::Gather - Implements the Perl 6 'gather/take' control structure in
-    Perl 5
-
-    Perl6::Interpolators - Use Perl 6 function-interpolation syntax
-
-    Perl6::Parameters - Perl 6-style prototypes with named parameters
-
-    Perl6::Placeholders - Perl 6 implicitly declared parameters for Perl 5
-
-    Perl6::Say - Implements the Perl 6 say (print-with-newline) function
-
-    Perl6::Tokener - It's a Perl 6 tokener. It tokenises Perl 6.
-
-    Perl6::Variables - Perl 6 variable syntax for Perl 5
-
-    UNIVERSAL::exports - Lightweight, universal exporting of variables
-
-    Want - Implement the want() command
-
-DESCRIPTION
-    This bundle defines modules that may be of interest to those discussing
-    and implementing the Perl 6 language. Some of these are
-    proof-of-concepts that the respective authors have implemented to show
-    how things might work in Perl 6.
-
-AVAILABILITY
-    The latest version of this module is available from the Comprehensive
-    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
-    CPAN site near you. Or see
-    <http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
-
-VERSION
-    This document describes version 0.07 of "Bundle::Perl6".
-
-AUTHOR
-    Marcel Grünauer, <marcel@cpan.org>
-
-COPYRIGHT
-    Copyright 2001-2004 Marcel Grünauer. All rights reserved.
-
-    This library is free software; you can redistribute it and/or modify it
-    under the same terms as Perl itself.
-
-SEE ALSO
-    All the modules in the bundle, of course.
-
+Marcel Gruenauer

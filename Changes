@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::Perl6.
 
+0.08  So Sep  9 10:35:00 CEST 2007
+	- brought more or less up-to-date
+
 0.07  Wed Mar 31 19:14:33 CEST 2004
 	- added Perl6::Say modules
 
