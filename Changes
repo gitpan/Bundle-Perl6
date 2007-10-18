@@ -1,29 +1,33 @@
 Revision history for Perl extension Bundle::Perl6.
 
+0.09  Do Okt 18 10:09:39 CEST 2007
+        - fixed version requirement of Test::More
+        - keep Perl::Critic happy
+
 0.08  So Sep  9 10:35:00 CEST 2007
-	- brought more or less up-to-date
+        - brought more or less up-to-date
 
 0.07  Wed Mar 31 19:14:33 CEST 2004
-	- added Perl6::Say modules
+        - added Perl6::Say modules
 
 0.06  Fri Mar 26 11:58:39 CET 2004
-	- added many Perl6::* modules
+        - added many Perl6::* modules
 
 0.05  Thu Aug  2 12:51:27 CEST 2001
-	- added Want (by Robin Houston)
+        - added Want (by Robin Houston)
 
 0.04  Tue Jul  3 15:08:34 CEST 2001
-	- added Coro (by Marc Lehmann)
+        - added Coro (by Marc Lehmann)
 
 0.03  Tue Jul  3 11:34:04 CEST 2001
-	- added Class::Object (by Michael G Schwern)
-	- added Exporter::Simple (by yours truly)
+        - added Class::Object (by Michael G Schwern)
+        - added Exporter::Simple (by yours truly)
 
 0.02  Sat Jun 30 10:18:05 CEST 2001
-	- added UNIVERSAL::exports (by Michael G Schwern)
-	- added CLASS (by Michael G Schwern)
+        - added UNIVERSAL::exports (by Michael G Schwern)
+        - added CLASS (by Michael G Schwern)
 
 0.01  Fri Jun 29 18:24:29 2001
-	- original version; created by h2xs 1.20 with options
-		-XAn Bundle::Perl6
+        - original version; created by h2xs 1.20 with options
+            -XAn Bundle::Perl6
 

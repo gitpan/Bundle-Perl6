@@ -1,8 +1,15 @@
 package Bundle::Perl6;
 
-$VERSION = '0.08';
+use warnings;
+use strict;
+
+
+our $VERSION = '0.09';
+
 
 1;
+
+
 __END__
 
 =head1 NAME
@@ -32,8 +39,6 @@ CLASS                   - Alias for __PACKAGE__
 Class::Object           - Each object is its own class
 
 Coro                    - create and manage coroutines
-
-Exporter::Simple        - Easier set-up of module exports with attributes
 
 NEXT                    - Provide a pseudo-class NEXT for method redispatch
 
