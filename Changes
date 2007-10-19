@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::Perl6.
 
+0.10  Fr Okt 19 18:44:55 CEST 2007
+        - fixed copyright to keep Module::Install happy
+
 0.09  Do Okt 18 10:09:39 CEST 2007
         - fixed version requirement of Test::More
         - keep Perl::Critic happy

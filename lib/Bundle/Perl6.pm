@@ -4,7 +4,7 @@ use warnings;
 use strict;
 
 
-our $VERSION = '0.09';
+our $VERSION = '0.10';
 
 
 1;
@@ -116,29 +116,39 @@ This bundle defines modules that may be of interest to those discussing and
 implementing the Perl 6 language. Some of these are proof-of-concepts that the
 respective authors have implemented to show how things might work in Perl 6.
 
+=head1 TAGS
+
+If you talk about this module in blogs, on del.icio.us or anywhere else,
+please use the C<bundleperl6> tag.
+
+=head1 BUGS AND LIMITATIONS
+
+No bugs have been reported.
+
+Please report any bugs or feature requests to
+C<bug-bundle-perl6@rt.cpan.org>, or through the web interface at
+L<http://rt.cpan.org>.
+
+=head1 INSTALLATION
+
+See perlmodinstall for information and options on installing Perl modules.
+
 =head1 AVAILABILITY
 
 The latest version of this module is available from the Comprehensive Perl
-Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN site
-near you. Or see L<http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
-
-=head1 VERSION
-
-This document describes version 0.07 of C<Bundle::Perl6>.
+Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a CPAN
+site near you. Or see <http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
 
 =head1 AUTHOR
 
-Marcel GrE<uuml>nauer, E<lt>marcel@cpan.orgE<gt>
+Marcel GrE<uuml>nauer, C<< <marcel@cpan.org> >>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright 2001-2007 Marcel GrE<uuml>nauer. All rights reserved.
+Copyright 2001-2007 by Marcel GrE<uuml>nauer
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-=head1 SEE ALSO
-
-All the modules in the bundle, of course.
-
 =cut
+
