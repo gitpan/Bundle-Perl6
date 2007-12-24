@@ -1,36 +1,79 @@
-Revision history for Perl extension Bundle::Perl6.
-
-0.10  Fr Okt 19 18:44:55 CEST 2007
-        - fixed copyright to keep Module::Install happy
-
-0.09  Do Okt 18 10:09:39 CEST 2007
-        - fixed version requirement of Test::More
-        - keep Perl::Critic happy
-
-0.08  So Sep  9 10:35:00 CEST 2007
-        - brought more or less up-to-date
-
-0.07  Wed Mar 31 19:14:33 CEST 2004
-        - added Perl6::Say modules
-
-0.06  Fri Mar 26 11:58:39 CET 2004
-        - added many Perl6::* modules
-
-0.05  Thu Aug  2 12:51:27 CEST 2001
-        - added Want (by Robin Houston)
-
-0.04  Tue Jul  3 15:08:34 CEST 2001
-        - added Coro (by Marc Lehmann)
-
-0.03  Tue Jul  3 11:34:04 CEST 2001
-        - added Class::Object (by Michael G Schwern)
-        - added Exporter::Simple (by yours truly)
-
-0.02  Sat Jun 30 10:18:05 CEST 2001
-        - added UNIVERSAL::exports (by Michael G Schwern)
-        - added CLASS (by Michael G Schwern)
-
-0.01  Fri Jun 29 18:24:29 2001
-        - original version; created by h2xs 1.20 with options
-            -XAn Bundle::Perl6
-
+---
+global:
+  name: Bundle-Perl6
+releases:
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - Converted Changes file to YAML style
+      - '.shipit: added Twitter step'
+      - 'Makefile.PL: added auto_install() and process_templates()'
+      - 'lib/*: converted to template'
+      - updated t/perlcriticrc
+      - 'removed Perl6::Bible, superseded by Perl6::Doc'
+    date: 2007-12-24T14:31:20Z
+    tags:
+      - NEWFEATURE
+    version: 0.11
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - fixed copyright to keep Module::Install happy
+    date: 2007-10-19T18:44:55+02:00
+    tags: []
+    version: 0.10
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - fixed version requirement of Test::More
+      - keep Perl::Critic happy
+    date: 2007-10-18T10:09:39+02:00
+    tags: []
+    version: 0.09
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - brought more or less up-to-date
+    date: 2007-09-09T10:35:00+02:00
+    tags: []
+    version: 0.08
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - added Perl6::Say modules
+    date: 2004-03-31T19:14:33+02:00
+    tags: []
+    version: 0.07
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - added many Perl6::* modules
+    date: 2004-03-26T11:58:39+01:00
+    tags: []
+    version: 0.06
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - added Want (by Robin Houston)
+    date: 2001-08-02T12:51:27+02:00
+    tags: []
+    version: 0.05
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - added Coro (by Marc Lehmann)
+    date: 2001-07-03T15:08:34+02:00
+    tags: []
+    version: 0.04
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - added Class::Object (by Michael G Schwern)
+      - added Exporter::Simple (by yours truly)
+    date: 2001-07-03T11:34:04+02:00
+    tags: []
+    version: 0.03
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - added UNIVERSAL::exports (by Michael G Schwern)
+      - added CLASS (by Michael G Schwern)
+    date: 2001-06-30T10:18:05+02:00
+    tags: []
+    version: 0.02
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - original version
+    date: 2001-06-29T18:24:29+01:00
+    tags: []
+    version: 0.01

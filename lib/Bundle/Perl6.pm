@@ -4,13 +4,15 @@ use warnings;
 use strict;
 
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 
 1;
 
 
 __END__
+
+
 
 =head1 NAME
 
@@ -50,8 +52,6 @@ Parrot::Embed           - parrot
 
 Perl6::Attributes       - Perl 6-like member variable syntax
 
-Perl6::Bible            - Perl 6 Design Documentations
-
 Perl6::Binding          - implement Perl6 aliasing features
 
 Perl6::Builtins         - Provide Perl 5 versions of the new Perl 6 builtins
@@ -63,6 +63,8 @@ Perl6::Classes          - First class classes in Perl 5
 Perl6::Contexts         - array and hash variables turn into references to themselves when used in non-numeric scalar context or as function arguments
 
 Perl6::Currying         - Perl 6 subroutine currying for Perl 5
+
+Perl6::Doc              - all useful Perl 6 Docs in your command line
 
 Perl6::Export           - Implements the Perl 6 'is export(...)' trait
 
@@ -121,12 +123,16 @@ respective authors have implemented to show how things might work in Perl 6.
 If you talk about this module in blogs, on del.icio.us or anywhere else,
 please use the C<bundleperl6> tag.
 
+=head1 VERSION 
+                   
+This document describes version 0.11 of L<Bundle::Perl6>.
+
 =head1 BUGS AND LIMITATIONS
 
 No bugs have been reported.
 
 Please report any bugs or feature requests to
-C<bug-bundle-perl6@rt.cpan.org>, or through the web interface at
+C<<bug-bundle-perl6@rt.cpan.org>>, or through the web interface at
 L<http://rt.cpan.org>.
 
 =head1 INSTALLATION
@@ -145,10 +151,11 @@ Marcel GrE<uuml>nauer, C<< <marcel@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2001-2007 by Marcel GrE<uuml>nauer
+Copyright 2004-2007 by Marcel GrE<uuml>nauer
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
+
 
 =cut
 
