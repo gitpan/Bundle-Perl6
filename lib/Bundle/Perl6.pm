@@ -4,7 +4,7 @@ use warnings;
 use strict;
 
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 
 1;
@@ -64,7 +64,7 @@ Perl6::Contexts         - array and hash variables turn into references to thems
 
 Perl6::Currying         - Perl 6 subroutine currying for Perl 5
 
-Perl6::Doc              - all useful Perl 6 Docs in your command line
+Perl6::Doc              - all useful Perl 6 documentation in your command line
 
 Perl6::Export           - Implements the Perl 6 'is export(...)' trait
 
@@ -100,7 +100,7 @@ Perl6::Subs             - Define your subroutines in the Perl 6 style
 
 Perl6::Take             - gather/take in Perl 5
 
-Perl6::Tokener          - It's a Perl 6 tokener. It tokenises Perl 6.
+Perl6::Tokener          - It's a Perl 6 tokener. It tokenizes Perl 6.
 
 Perl6::Variables        - Perl 6 variable syntax for Perl 5
 
@@ -118,21 +118,11 @@ This bundle defines modules that may be of interest to those discussing and
 implementing the Perl 6 language. Some of these are proof-of-concepts that the
 respective authors have implemented to show how things might work in Perl 6.
 
-=head1 TAGS
-
-If you talk about this module in blogs, on del.icio.us or anywhere else,
-please use the C<bundleperl6> tag.
-
-=head1 VERSION 
-                   
-This document describes version 0.11 of L<Bundle::Perl6>.
-
 =head1 BUGS AND LIMITATIONS
 
 No bugs have been reported.
 
-Please report any bugs or feature requests to
-C<<bug-bundle-perl6@rt.cpan.org>>, or through the web interface at
+Please report any bugs or feature requests through the web interface at
 L<http://rt.cpan.org>.
 
 =head1 INSTALLATION
@@ -145,13 +135,13 @@ The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a CPAN
 site near you. Or see <http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
 
-=head1 AUTHOR
+=head1 AUTHORS
 
 Marcel GrE<uuml>nauer, C<< <marcel@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004-2007 by Marcel GrE<uuml>nauer
+Copyright 2004-2008 by the authors.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
